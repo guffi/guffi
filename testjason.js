@@ -1,3 +1,5 @@
+document.querySelector('#myResults').innerHTML = 'Hello World!';
+
 var obj = {a:1, 'b':'foo', c:[false,null, {d:{e:1.3e5}}]};
 var jsonStr = JSON.stringify(obj, undefined, 2); // indentation level = 2
 displayEl.value = jsonStr;
