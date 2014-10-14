@@ -8,12 +8,7 @@ var jsonVar = {
              "yet more text": "yet another example"
         }
     }, // THE RAW OBJECT
-    jsonStr = JSON.stringify(jsonVar),  // THE OBJECT STRINGIFIED
-    regeStr = '', // A EMPTY STRING TO EVENTUALLY HOLD THE FORMATTED STRINGIFIED OBJECT
-    f = {
-            brace: 0
-        }; // AN OBJECT FOR TRACKING INCREMENTS/DECREMENTS,
-           // IN PARTICULAR CURLY BRACES (OTHER PROPERTIES COULD BE ADDED)
+    jsonStr = JSON.stringify(jsonVar);
 
 regeStr = jsonStr.replace(/({|}[,]*|[^{}:]+:[^{}:,]*[,{]*)/g, function (m, p1) {
 var rtnFn = function() {
