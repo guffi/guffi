@@ -10,9 +10,18 @@ ol, ul { list-style: none; }
   border: 2px dashed #666;
   margin: 20px;
   padding: 500px;
-  font-family: "Arial";
-  color: black;
-  text-align: right;
+
+}
+
+ul.ourJson {
+	margin: 0;
+	padding: 0;
+	width: 800px;
+	overflow: hidden;
+	font-family: "Arial";
+  	color: black;
+  	text-align: right;
+	border-top: 1px solid #6DBCDB;
 }
 
 #container { 
