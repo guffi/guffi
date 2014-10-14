@@ -36,6 +36,22 @@
 				"closes": "18:00"
 			}
 		}
+		"hotness": {
+			"not hot": {
+			},
+			"medium": {
+			},
+			"hot": {
+			},
+			"3x hot": {
+			},
+			"4x hot": {
+			},
+			"5x hot": {
+			},
+			"poison!": {
+			}
+		}
 	},
 	{
 		"name": "Nammi namm",
