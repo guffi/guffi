@@ -337,7 +337,7 @@ function getHotness()
 {
 	var hotnessTags = new Array("not hot", "medium", "hot", "3x hot", "4x hot", "5x hot", "poison!");
 
-	return hotnessTags[hot];
+	return hotnessTags[];
 }
 
 function displayData(data)
