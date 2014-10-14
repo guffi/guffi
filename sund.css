@@ -6,6 +6,13 @@ body {
 
 ol, ul { list-style: none; }
 
+#jsonStr, #regeStr {
+  border: 2px dashed #666;
+  margin: 20px;
+  padding: 10px;
+  font-family: "Arial";
+}
+
 #container { 
 	width: 800px; 
 	margin: 0 auto; 
