@@ -315,7 +315,7 @@ function makeTimeHtml(info)
 	return currentDayText+"<p>"+otherDaysText+"</p>";
 }
 
-function makePoolHtml(info, isOdd, dayTag, hotness)
+function makePoolHtml(info, isOdd, dayTag)
 {
 	var classes = isOdd ? "item": "item background";
 
@@ -349,7 +349,7 @@ function displayData(data)
 
 	for (var s = 0; s < data.length; s++)
 	{
-		dataHtml += makePoolHtml(data[s], isOdd(s), dayTag, hotness);
+		dataHtml += makePoolHtml(data[s], isOdd(s), dayTag);
 
 		// break;
 	}
