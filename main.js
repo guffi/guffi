@@ -349,7 +349,7 @@ function displayData(data)
 
 	for (var s = 0; s < data.length; s++)
 	{
-		dataHtml += makePoolHtml(data[s], isOdd(s), dayTag, hotness);
+		dataHtml += makePoolHtml(data[s], isOdd(s), dayTag);
 
 		// break;
 	}
