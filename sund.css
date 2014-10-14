@@ -16,7 +16,7 @@ ol, ul { list-style: none; }
 ul.ourJson {
 	margin: 0;
 	padding: 0;
-	width: 800px;
+	width: 100px;
 	overflow: hidden;
 	font-family: "Arial";
   	color: black;
