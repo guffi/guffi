@@ -1,3 +1,4 @@
+<code class="prettyprint">
 var jsonVar = {
         text: "example",
         number: 1,
@@ -8,7 +9,10 @@ var jsonVar = {
              "yet more text": "yet another example"
         }
     }, // THE RAW OBJECT
+    
     jsonStr = JSON.stringify({ foo: "sample", bar: "sample" }, null, 4);
+    
+</code>
     
 regeStr = jsonStr.replace(/({|}[,]*|[^{}:]+:[^{}:,]*[,{]*)/g, function (m, p1) {
 var rtnFn = function() {
