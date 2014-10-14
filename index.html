@@ -20,36 +20,9 @@
 
 <pre class="prettyprint">
 <code>
-[
-    {
-    	color: "red",
-    	value: "#f00"
-    },
-    {
-    	color: "green",
-    	value: "#0f0"
-    },
-    {
-    	color: "blue",
-    	value: "#00f"
-    },
-    {
-    	color: "cyan",
-    	value: "#0ff"
-    },
-    {
-    	color: "magenta",
-    	value: "#f0f"
-    },
-    {
-    	color: "yellow",
-    	value: "#ff0"
-    },
-    {
-    	color: "black",
-    	value: "#000"
-    }
-]
+
+var obj = {a:1, 'b':'foo', c:[false,null, {d:{e:1.3e5}}]};
+var str = JSON.stringify(obj, undefined, 2); // indentation level = 2
 
 </code>
 </pre>
