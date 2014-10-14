@@ -10,7 +10,7 @@ ol, ul { list-style: none; }
   border: 2px dashed #666;
   margin: 20px;
   padding: 250px;
-
+  font-family: "Arial";
 }
 
 ul.ourJson {
