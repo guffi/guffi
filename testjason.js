@@ -8,8 +8,8 @@ var jsonVar = {
              "yet more text": "yet another example"
         }
     }, // THE RAW OBJECT
-    jsonStr = JSON.stringify(jsonVar);
-
+    jsonStr = JSON.stringify({ foo: "sample", bar: "sample" }, null, 4);
+    
 regeStr = jsonStr.replace(/({|}[,]*|[^{}:]+:[^{}:,]*[,{]*)/g, function (m, p1) {
 var rtnFn = function() {
         return '<div style="text-indent: ' + (f['brace'] * 20) + 'px;">' + p1 + '</div>';
