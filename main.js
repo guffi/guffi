@@ -333,19 +333,11 @@ function makePoolHtml(info, isOdd, dayTag)
 	return poolHtml;
 }
 
-function getHotness()
-{
-	var hotnessTags = new Array("not hot", "medium", "hot", "3x hot", "4x hot", "5x hot", "poison!");
-
-	return hotnessTags[];
-}
-
 function displayData(data)
 {	
 	dataHtml = "<ul>";
 
 	var dayTag = getDayTag();
-	var hotness = getHotness();
 
 	for (var s = 0; s < data.length; s++)
 	{
