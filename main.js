@@ -20,7 +20,7 @@ var $data;
 
 $(document).ready(function()
 {
-	$.getJSON("sundlaugar.json", function(json)
+	$.getJSON("courses.json", function(json)
 	{
 			$data = json;
 
