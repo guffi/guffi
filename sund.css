@@ -9,7 +9,8 @@ ol, ul { list-style: none; }
 #jsonStr, #regeStr {
   border: 2px dashed #666;
   margin: 20px;
-  padding: 1000px;
+  padding: 500px;
+  font-family: "Arial";
   color: black;
   text-align: right;
 }
