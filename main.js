@@ -333,6 +333,13 @@ function makePoolHtml(info, isOdd, dayTag)
 	return poolHtml;
 }
 
+function hotness()
+{
+	var hotness = new Array("not hot", "medium", "hot", "3x hot", "4x hot", "5x hot", "poison!");
+
+	return hotness[];
+}
+
 function displayData(data)
 {	
 	dataHtml = "<ul>";
@@ -341,7 +348,7 @@ function displayData(data)
 
 	for (var s = 0; s < data.length; s++)
 	{
-		dataHtml += makePoolHtml(data[s], isOdd(s), dayTag);
+		dataHtml += makePoolHtml(data[s], isOdd(s), dayTag, hotness);
 
 		// break;
 	}
