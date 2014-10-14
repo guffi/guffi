@@ -354,15 +354,3 @@ function displayData(data)
 	});
 	
 }
-
-var jsonVar = {
-        text: "example",
-        number: 1,
-        obj: {
-            "more text": "another example"
-        },
-        obj2: {
-             "yet more text": "yet another example"
-        }
-    }, // THE RAW OBJECT
-    jsonStr = JSON.stringify(jsonVar);
