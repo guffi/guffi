@@ -1,4 +1,7 @@
-var jsonVar = {
+var obj = {a:1, 'b':'foo', c:[false,null, {d:{e:1.3e5}}]};
+var jsonStr = JSON.stringify(obj, undefined, 2); // indentation level = 2
+
+// var jsonVar = {
         text: "example",
         number: 1,
         obj: {
@@ -9,7 +12,7 @@ var jsonVar = {
         }
     }, // THE RAW OBJECT
     
-    jsonStr = JSON.stringify({ foo: "sample", bar: "sample" }, null, 4);
+  //  jsonStr = JSON.stringify({ foo: "sample", bar: "sample" }, null, 4);
     
 regeStr = jsonStr.replace(/({|}[,]*|[^{}:]+:[^{}:,]*[,{]*)/g, function (m, p1) {
 var rtnFn = function() {
