@@ -32,7 +32,7 @@ color:
 # Footer settings
 footer:
   copyright: Guðfinnur Sveinsson
-  /*location: Location
+  location: Location
   social: My Profiles
   credits: Contact
 
