@@ -45,8 +45,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Delpuhólar 9
-  - line: 111 Reykjavík
+  - line: Reykjavík
   - line: Iceland
 
 # Credits content
