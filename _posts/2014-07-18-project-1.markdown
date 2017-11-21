@@ -4,7 +4,7 @@ modal-id: 1
 date: 2016-03-15
 img: wowair.png
 alt: image-alt
-project-date: March 2016
+project-date: 2016 -
 client: WOW Air
 category: Management consulting
 description: Since March 2016 I've been a consultant to the VP of Operations at <a href="https://wowair.com">WOW air</a>. I've coached managers, helped teams adopt agile practices and worked on organizational development.
