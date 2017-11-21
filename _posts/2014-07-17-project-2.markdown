@@ -4,7 +4,7 @@ modal-id: 2
 date: 2015-05-01
 img: tempo.png
 alt: image-alt
-project-date: May 2016
+project-date: 2016 -
 client: Tempo
 category: Executive Team Coach
 description: As of May 2016 I've been a team coach for the executive team at <a href="https://tempo.io">Tempo</a>. 
